@@ -7,5 +7,6 @@
     <string name="title_activity_make_room">MakeRoom</string>
     <string name="title_activity_seach_room">SeachRoom</string>
     <string name="title_activity_warikan">Warikan</string>
+    <string name="title_activity_all_room">AllRoom</string>
 
 </resources>
