@@ -8,5 +8,7 @@
     <string name="title_activity_seach_room">SeachRoom</string>
     <string name="title_activity_warikan">Warikan</string>
     <string name="title_activity_all_room">AllRoom</string>
+    <string name="title_activity_member_room">MemberRoom</string>
+    <string name="title_activity_kanji_room">KanjiRoom</string>
 
 </resources>
