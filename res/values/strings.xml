@@ -10,5 +10,6 @@
     <string name="title_activity_all_room">AllRoom</string>
     <string name="title_activity_member_room">MemberRoom</string>
     <string name="title_activity_kanji_room">KanjiRoom</string>
+    <string name="title_activity_room_hensyu">RoomHensyu</string>
 
 </resources>

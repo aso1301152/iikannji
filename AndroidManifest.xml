@@ -46,6 +46,10 @@
             android:name=".KanjiRoom"
             android:label="@string/title_activity_kanji_room" >
         </activity>
+        <activity
+            android:name=".RoomHensyu"
+            android:label="@string/title_activity_room_hensyu" >
+        </activity>
     </application>
 
 </manifest>
