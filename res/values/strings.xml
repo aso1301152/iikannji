@@ -2,7 +2,6 @@
 <resources>
 
     <string name="app_name">IIkanji</string>
-    <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_make_room">MakeRoom</string>
     <string name="title_activity_seach_room">SeachRoom</string>
@@ -11,5 +10,22 @@
     <string name="title_activity_member_room">MemberRoom</string>
     <string name="title_activity_kanji_room">KanjiRoom</string>
     <string name="title_activity_room_hensyu">RoomHensyu</string>
+    <string name="textRoomList">参加中のルーム一覧</string>
+    <string name="RoomId">ルームID</string>
+    <string name="Time">時間</string>
+    <string name="pay">お会計</string>
+    <string name="member">メンバー</string>
+    <string name="titel">いい感じの幹事</string>
+    <string name="subtitle">～飲み会を円滑に～</string>
+    <string name="NomikaiName">飲み会名</string>
+    <string name="WarikanShiharai">割勘支払いについて</string>
+    <string name="Yobun">余分に集める</string>
+    <string name="Hasu">端数は幹事が負担</string>
+    <string name="SeachId">IDでルームを検索します</string>
+    <string name="yen">円</string>
+    <string name="ninzu">人数</string>
+    <string name="nin">人</string>
+    <string name="hitori">1人：</string>
+    <string name="kanji">幹事：</string>
 
 </resources>

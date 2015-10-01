@@ -17,25 +17,6 @@
         android:orientation="vertical" >
     </LinearLayout>
 
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="19dp"
-        android:text="いい感じの幹事"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textView1"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="18dp"
-        android:text="～飲み会を円滑に～" />
-
     <Button
         android:id="@+id/button1"
         android:layout_width="wrap_content"
@@ -50,7 +31,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/button1"
         android:layout_marginTop="15dp"
-        android:layout_toRightOf="@+id/textView2"
+        android:layout_toRightOf="@+id/textSubTitle"
         android:text="Button" />
 
     <Button
@@ -59,7 +40,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/button4"
         android:layout_marginTop="15dp"
-        android:layout_toRightOf="@+id/textView2"
+        android:layout_toRightOf="@+id/textSubTitle"
         android:text="Button" />
 
     <Button
@@ -69,16 +50,35 @@
         android:layout_above="@+id/button1"
         android:layout_alignParentRight="true"
         android:layout_marginBottom="18dp"
-        android:layout_toRightOf="@+id/textView2"
+        android:layout_toRightOf="@+id/textSubTitle"
         android:text="Button" />
+
+    <TextView
+        android:id="@+id/textSubTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="47dp"
+        android:text="@string/subtitle" />
+
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textSubTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:text="@string/titel"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <ImageView
         android:id="@+id/imageView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignRight="@+id/textView2"
+        android:layout_alignRight="@+id/textSubTitle"
         android:layout_alignTop="@+id/button2"
-        android:layout_marginRight="20dp"
+        android:layout_marginRight="18dp"
         android:src="@drawable/business_012" />
 
 </RelativeLayout>

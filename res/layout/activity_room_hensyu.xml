@@ -9,13 +9,13 @@
     tools:context="com.example.iikanji.RoomHensyu" >
 
     <TextView
-        android:id="@+id/textView1"
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBaseline="@+id/editText1"
         android:layout_alignBottom="@+id/editText1"
         android:layout_alignParentLeft="true"
-        android:text="飲み会名" />
+        android:text="@string/NomikaiName" />
 
     <EditText
         android:id="@+id/editText1"
@@ -26,15 +26,6 @@
         android:layout_marginTop="20dp"
         android:ems="10" />
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_below="@+id/editText1"
-        android:layout_marginTop="26dp"
-        android:text="メンバー" />
-
     <RadioButton
         android:id="@+id/radioButton2"
         android:layout_width="wrap_content"
@@ -42,7 +33,7 @@
         android:layout_alignLeft="@+id/radioButton1"
         android:layout_alignTop="@+id/radioButton1"
         android:layout_marginTop="44dp"
-        android:text="幹事が端数を負担する" />
+        android:text="@string/Hasu" />
 
     <Button
         android:id="@+id/button2"
@@ -54,7 +45,7 @@
         android:text="Button" />
 
     <ListView
-        android:id="@+id/listView1"
+        android:id="@+id/listView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_above="@+id/radioButton1"
@@ -70,7 +61,7 @@
         android:layout_above="@+id/button1"
         android:layout_marginBottom="80dp"
         android:layout_toRightOf="@+id/textView2"
-        android:text="余分に集める" />
+        android:text="@string/Yobun" />
 
     <Button
         android:id="@+id/button1"
@@ -78,8 +69,17 @@
         android:layout_height="wrap_content"
         android:layout_alignBaseline="@+id/button2"
         android:layout_alignBottom="@+id/button2"
-        android:layout_alignLeft="@+id/listView1"
+        android:layout_alignLeft="@+id/list"
         android:layout_marginLeft="21dp"
         android:text="Button" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/listView"
+        android:layout_below="@+id/editText1"
+        android:layout_marginTop="29dp"
+        android:text="@string/member" />
 
 </RelativeLayout>

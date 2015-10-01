@@ -8,14 +8,6 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.iikanji.MakeRoom" >
 
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_marginTop="46dp"
-        android:text="飲み会名" />
-
     <EditText
         android:id="@+id/editText1"
         android:layout_width="wrap_content"
@@ -35,7 +27,7 @@
         android:layout_alignParentLeft="true"
         android:layout_below="@+id/editText1"
         android:layout_marginTop="65dp"
-        android:text="割勘支払いについて"
+        android:text="@string/WarikanShiharai"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <RadioGroup
@@ -53,7 +45,7 @@
         android:layout_alignParentLeft="true"
         android:layout_centerVertical="true"
         android:checked="true"
-        android:text="余分に集める" />
+        android:text="@string/Yobun" />
 
     <RadioButton
         android:id="@+id/radio1"
@@ -62,7 +54,7 @@
         android:layout_alignParentLeft="true"
         android:layout_below="@+id/radio0"
         android:layout_marginTop="25dp"
-        android:text="端数は幹事が負担" />
+        android:text="@string/Hasu" />
 
     <Button
         android:id="@+id/button1"
@@ -73,5 +65,14 @@
         android:layout_below="@+id/radio1"
         android:layout_marginTop="40dp"
         android:text="Button" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/editText1"
+        android:layout_alignBottom="@+id/editText1"
+        android:layout_alignLeft="@+id/textView2"
+        android:text="@string/NomikaiName" />
 
 </RelativeLayout>
