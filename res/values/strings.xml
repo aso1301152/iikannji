@@ -27,5 +27,7 @@
     <string name="nin">人</string>
     <string name="hitori">1人：</string>
     <string name="kanji">幹事：</string>
+    <string name="title_activity_name_setting">NameSetting</string>
+    <string name="hello_world">Hello world!</string>
 
 </resources>
