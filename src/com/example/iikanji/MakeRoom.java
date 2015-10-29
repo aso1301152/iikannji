@@ -7,11 +7,12 @@ import android.view.MenuItem;
 
 public class MakeRoom extends Activity {
 
-	@Override
+
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_make_room);
 	}
+
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {

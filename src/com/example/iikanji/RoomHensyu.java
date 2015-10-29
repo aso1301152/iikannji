@@ -13,7 +13,7 @@ public class RoomHensyu extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_room_hensyu);				//エラーが出る行＿田上
+		setContentView(R.layout.activity_room_hensyu);
 
 		ListView listView = (ListView)findViewById(R.id.listView);
 		MyListAdapter adapter = new MyListAdapter(this,R.layout.row,str);
