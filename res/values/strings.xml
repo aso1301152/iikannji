@@ -29,5 +29,8 @@
     <string name="kanji">幹事：</string>
     <string name="title_activity_name_setting">NameSetting</string>
     <string name="hello_world">Hello world!</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_make_id">MakeID</string>
+    <string name="title_activity_not_login_main">NotLoginMain</string>
 
 </resources>

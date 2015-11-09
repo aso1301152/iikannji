@@ -6,7 +6,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.iikanji.MainActivity" >
+    tools:context="com.example.iikanji.Top" >
+
 
     <Space
         android:layout_width="wrap_content"
@@ -15,11 +16,12 @@
         android:layout_below="@+id/imageView6" />
 
     <LinearLayout
-        android:id="@+id/linearLayout1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true" >
+        android:layout_alignLeft="@+id/imageView6"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/imageView6"
+        android:layout_below="@+id/imageView6" >
 
         <ImageView
             android:id="@+id/imageView1"
@@ -29,7 +31,7 @@
 
         <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_height="316dp"
+            android:layout_height="match_parent"
             android:orientation="vertical" >
 
             <ImageView
@@ -40,13 +42,13 @@
 
             <ImageView
                 android:id="@+id/imageView3"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/sanka" />
 
             <ImageView
                 android:id="@+id/imageView4"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/joukyou" />
 
@@ -58,21 +60,5 @@
 
         </LinearLayout>
     </LinearLayout>
-
-    <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignRight="@+id/linearLayout1"
-        android:src="@drawable/login" />
-
-    <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/linearLayout1"
-        android:layout_alignParentBottom="true"
-        android:src="@drawable/yuza" />
 
 </RelativeLayout>

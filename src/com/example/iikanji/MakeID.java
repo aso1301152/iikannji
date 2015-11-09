@@ -1,22 +1,44 @@
 package com.example.iikanji;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
+import android.widget.Toast;
 
-public class AllRoom extends Activity {
+
+public class MakeID extends Activity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_all_room);
+		setContentView(R.layout.activity_make_id);
+
+
+		//トースト
+		Toast.makeText(this, "PASSを登録しました！", Toast.LENGTH_LONG).show();
+
+
+		Button btn = (Button)findViewById(R.id.button1);
+		btn.setOnClickListener(new View.OnClickListener() {
+
+		//ログイン後メインへ
+			public void onClick(View v) {
+				Intent btninte = new Intent(MakeID.this,Top.class);
+				startActivity(btninte);
+			}
+		});
+
 	}
+
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.all_room, menu);
+		getMenuInflater().inflate(R.menu.make_id, menu);
 		return true;
 	}
 

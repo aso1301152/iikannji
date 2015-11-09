@@ -17,14 +17,6 @@
         android:layout_marginBottom="150dp"
         android:text="Button" />
 
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="63dp"
-        android:text="名前を設定します" />
-
     <EditText
         android:id="@+id/editText1"
         android:layout_width="wrap_content"
@@ -36,5 +28,32 @@
 
         <requestFocus />
     </EditText>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="32dp"
+        android:text="ユーザー設定を行うと" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView2"
+        android:text="全ての機能がご利用できます。" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editText1"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_marginBottom="22dp"
+        android:text="表示させる名前" />
 
 </RelativeLayout>

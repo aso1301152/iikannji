@@ -54,6 +54,18 @@
             android:name=".NameSetting"
             android:label="@string/title_activity_name_setting" >
         </activity>
+        <activity
+            android:name=".Login"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name=".MakeID"
+            android:label="@string/title_activity_make_id" >
+        </activity>
+        <activity
+            android:name=".Top"
+            android:label="@string/title_activity_not_login_main" >
+        </activity>
     </application>
 
 </manifest>

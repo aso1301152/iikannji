@@ -4,20 +4,14 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.ListView;
 
 public class RoomHensyu extends Activity {
 
 
-	private String str[] = {"項目1","項目2","項目3","項目4","項目5","項目6","項目7","項目8","項目9","項目10"};
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_room_hensyu);
-
-		ListView listView = (ListView)findViewById(R.id.listView);
-		MyListAdapter adapter = new MyListAdapter(this,R.layout.row,str);
-		listView.setAdapter(adapter);
 	}
 
 
