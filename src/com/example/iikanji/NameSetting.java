@@ -1,9 +1,12 @@
 package com.example.iikanji;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.ImageView;
 
 public class NameSetting extends Activity {
 
@@ -11,6 +14,15 @@ public class NameSetting extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_name_setting);
+
+		//名前設定したらＩＤ配布ページへ
+				ImageView namepict = (ImageView)findViewById(R.id.imageView2);
+						namepict.setOnClickListener(new View.OnClickListener() {
+							public void onClick(View v) {
+								Intent nameinte = new Intent(NameSetting.this,MakeID.class);
+								startActivity(nameinte);
+							}
+						});
 	}
 
 	@Override

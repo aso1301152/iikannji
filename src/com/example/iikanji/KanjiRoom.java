@@ -1,9 +1,12 @@
 package com.example.iikanji;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.ImageView;
 
 public class KanjiRoom extends Activity {
 
@@ -11,6 +14,15 @@ public class KanjiRoom extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_kanji_room);
+
+		//編集ボタンで編集画面
+				ImageView henpict = (ImageView)findViewById(R.id.button1);
+						henpict.setOnClickListener(new View.OnClickListener() {
+							public void onClick(View v) {
+								Intent heninte = new Intent(KanjiRoom.this,RoomHensyu.class);
+								startActivity(heninte);
+							}
+						});
 	}
 
 	@Override

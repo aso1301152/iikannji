@@ -1,9 +1,12 @@
 package com.example.iikanji;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.ImageView;
 
 public class Login extends Activity {
 
@@ -12,6 +15,23 @@ public class Login extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_login);
 
+		//ログインボタンでＴＯＰへ
+				ImageView logpict = (ImageView)findViewById(R.id.imageView2);
+						logpict.setOnClickListener(new View.OnClickListener() {
+							public void onClick(View v) {
+								Intent loginte = new Intent(Login.this,Top.class);
+								startActivity(loginte);
+							}
+						});
+
+		//IDがない場合ユーザ設定（名前の設定）へ
+				ImageView yuzapict = (ImageView)findViewById(R.id.imageView2);
+						yuzapict.setOnClickListener(new View.OnClickListener() {
+							public void onClick(View v) {
+						Intent yuzainte = new Intent(Login.this,NameSetting.class);
+								startActivity(yuzainte);
+							}
+						});
 	}
 
 	@Override
