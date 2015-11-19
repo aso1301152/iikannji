@@ -69,7 +69,11 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_below="@+id/textView8"
-        android:layout_marginTop="29dp" >
+        android:layout_marginTop="29dp"
+        android:background="#f0f8ff"
+        android:divider="#ffffff"
+        android:drawSelectorOnTop="true" >
+
     </ListView>
 
     <TextView
