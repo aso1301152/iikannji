@@ -70,9 +70,10 @@
         android:layout_alignParentLeft="true"
         android:layout_below="@+id/textView8"
         android:layout_marginTop="29dp"
-        android:background="#f0f8ff"
+        android:drawSelectorOnTop="true"
+        android:background="#e6f2ff"
         android:divider="#ffffff"
-        android:drawSelectorOnTop="true" >
+        android:dividerHeight="8dp" >
 
     </ListView>
 

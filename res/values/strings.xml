@@ -32,5 +32,13 @@
     <string name="title_activity_login">Login</string>
     <string name="title_activity_make_id">MakeID</string>
     <string name="title_activity_not_login_main">NotLoginMain</string>
+     <!-- context -->
+    <string name="context_del">削除</string>
+    <!-- edit.xml -->
+	<string name="action_delete">削除</string>
+	<!-- Toast用 -->
+    <string name="msg_del">削除しました。</string>
+
+
 
 </resources>
